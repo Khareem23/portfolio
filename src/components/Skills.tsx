@@ -12,13 +12,14 @@ const Skills: React.FC = () => {
     { name: 'RxJS', proficiency: 80 }
   ];
 
-  const productDesignSkills = [
-    { name: 'Figma', proficiency: 92 },
-    { name: 'Wireframing', proficiency: 90 },
-    { name: 'Prototyping', proficiency: 88 },
-    { name: 'User Research', proficiency: 82 },
-    { name: 'Design Systems', proficiency: 90 },
-    { name: 'UX Strategy', proficiency: 86 }
+  const aIEngineerSkills = [
+    { name: 'Gen AI', proficiency: 50 },
+    { name: 'LLM', proficiency: 40 },
+    { name: 'AI Assisted Development', proficiency: 80 },
+    { name: 'Prompt Engineering', proficiency: 10 },
+    { name: 'MCP', proficiency: 10 },
+    { name: 'RAGS', proficiency: 10 },
+    { name: 'Agentic Systems', proficiency: 10 }
   ];
 
   const architectureSkills = [
@@ -69,35 +70,41 @@ const Skills: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-          <SkillCategory 
-            title="Product Design" 
-            icon={<PenTool size={24} className="text-rose-600" />}
-            skills={productDesignSkills}
-          />
+       
           <SkillCategory 
             title="Software Design & Architecture" 
             icon={<Blocks size={24} className="text-indigo-600" />}
             skills={architectureSkills}
           />
-          <SkillCategory 
-            title="Frontend Development" 
-            icon={<Globe size={24} className="text-blue-600" />}
-            skills={frontendSkills}
-          />
-          <SkillCategory 
+
+             <SkillCategory 
             title="Backend Development" 
             icon={<Server size={24} className="text-purple-600" />}
             skills={backendSkills}
           />
+
           <SkillCategory 
             title="Database Technologies" 
             icon={<Database size={24} className="text-teal-600" />}
             skills={databaseSkills}
           />
+
+          <SkillCategory 
+            title="Frontend Development" 
+            icon={<Globe size={24} className="text-blue-600" />}
+            skills={frontendSkills}
+          />
+      
           <SkillCategory 
             title="DevOps & Cloud" 
             icon={<Cloud size={24} className="text-orange-600" />}
             skills={devOpsSkills}
+          />
+
+             <SkillCategory 
+            title="AI Engineering" 
+            icon={<PenTool size={24} className="text-rose-600" />}
+            skills={aIEngineerSkills}
           />
         </div>
 

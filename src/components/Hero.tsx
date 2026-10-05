@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 items-start gap-14 xl:grid-cols-[minmax(0,1.55fr)_minmax(320px,0.95fr)] xl:gap-16">
           <div className="max-w-[980px] pt-4">
             <div className="text-[0.84rem] font-bold uppercase tracking-[0.23em] text-blue-700 md:text-[0.92rem]">
-              Software Engineering • Product UI/UX • AI Systems Evaluation & Integration
+              Software Engineering (Full-Stack) • DevOps • Gen AI , LLM & Agentic Systems (Exploring)
             </div>
 
             <h1 className="mt-8 text-[3.52rem] font-black uppercase leading-[0.88] tracking-[-0.075em] text-[#0f172a] sm:text-[4.4rem] md:text-[5.65rem] lg:text-[5.65rem] xl:text-[5.65rem]">
@@ -17,20 +17,23 @@ const Hero: React.FC = () => {
               Kareem
             </h1>
 
-            <div className="mt-10 max-w-[1080px] space-y-6 text-[1.01rem] leading-[1.6] text-slate-600 md:text-[1.28rem]">
+            <div className="mt-10 max-w-[1080px] space-y-6 text-justify hyphens-auto text-[1.01rem] leading-[1.6] text-slate-600 md:text-[1.28rem]">
               <p>
                 <span className="bg-sky-200/90 px-1 py-1 box-decoration-clone">
-                  Software Engineering, Product Design/UX, and AI Systems Evaluation Specialist
-                  with 10+ years of combined experience across .Net, C#, Node, Javascript, Python
-                  development, full-stack applications, user-focused digital workflows, and LLM
-                  evaluation.
+                 Full-Stack Engineer and hands-on Technical Lead with 10+ years of software engineering experience,
+                 including 4 years of leading engineering teams and delivering enterprise platforms using <strong> .NET, C#,
+                  Typescript, React, Python, SQL, Azure, AWS, Terraform, Docker and Kubernetes </strong>.Proven track record designing
+                distributed systems, driving technical strategy, mentoring engineers, leading large-scale transformation initiatives that
+                improve scalability, reliability, business outcomes and delivering solutions serving millions of users
+                globally.
                 </span>
               </p>
               <p className="max-w-[980px]">
                 <span className="bg-sky-200/90 px-1 py-1 box-decoration-clone">
-                  I evaluate, build, and improve digital products by combining software engineering
-                  discipline, UX judgment, structured feedback systems, and AI interaction quality
-                  assessment.
+                 Strong expertise in <strong>System design and architecture, Backend engineering, cloud platforms, CI/CD,
+                 DevOps, Databases, Performance optimisation, software quality practices and technical leadership </strong>.
+                 Experienced collaborating with cross-functional stakeholders to deliver resilient, secure, and high-performing software
+                 that enhances customer experience and drives measurable business value
                 </span>
               </p>
             </div>
@@ -74,8 +77,7 @@ const Hero: React.FC = () => {
             </h2>
 
             <p className="mt-6 max-w-[26rem] text-[0.97rem] leading-[1.7] text-slate-500 md:text-[1.06rem]">
-              Combining software engineering, product thinking, UX evaluation, and AI systems
-              analysis to build and assess reliable digital experiences.
+              Combining Software engineering, DevOps, Frontend development & AI Engineering
             </p>
 
             <div className="mt-9 grid grid-cols-1 gap-5 sm:grid-cols-2">
@@ -84,23 +86,23 @@ const Hero: React.FC = () => {
                   10+
                 </div>
                 <p className="mt-2 text-[0.86rem] leading-6 text-slate-500 md:text-[0.9rem]">
-                  Years combined experience
+                  Years SW Engineering Experience
                 </p>
               </div>
               <div className="rounded-[1.8rem] border border-slate-200 bg-slate-50 p-4 md:p-5">
                 <div className="text-[2.46rem] font-black tracking-[-0.06em] text-blue-700 md:text-[2.82rem]">
-                  AI
+                 4
                 </div>
                 <p className="mt-2 text-[0.86rem] leading-6 text-slate-500 md:text-[0.9rem]">
-                  LLM evaluation &amp; RLHF-style review
+                  Years Technical leadership
                 </p>
               </div>
               <div className="rounded-[1.8rem] border border-slate-200 bg-slate-50 p-4 md:p-5">
                 <div className="text-[2.46rem] font-black tracking-[-0.06em] text-blue-700 md:text-[2.82rem]">
-                  UX
+                  Dev <br/>Ops
                 </div>
                 <p className="mt-2 text-[0.86rem] leading-6 text-slate-500 md:text-[0.9rem]">
-                  User journeys &amp; workflow critique
+                  CI/CD &amp; Infrastructure
                 </p>
               </div>
               <div className="rounded-[1.8rem] border border-slate-200 bg-slate-50 p-4 md:p-5">
@@ -108,7 +110,7 @@ const Hero: React.FC = () => {
                   Code
                 </div>
                 <p className="mt-2 text-[0.86rem] leading-6 text-slate-500 md:text-[0.9rem]">
-                  Python, JavaScript, SQL
+                  .Net (C#), TypeScript & Python
                 </p>
               </div>
             </div>
@@ -118,10 +120,10 @@ const Hero: React.FC = () => {
                 Software Engineering
               </span>
               <span className="rounded-full border border-blue-100 bg-blue-50 px-5 py-3 text-[0.84rem] font-semibold text-blue-800 md:text-[0.88rem]">
-                Product UI/UX
+                DevOps
               </span>
               <span className="rounded-full border border-blue-100 bg-blue-50 px-5 py-3 text-[0.84rem] font-semibold text-blue-800 md:text-[0.88rem]">
-                AI Systems
+                AI Engineering
               </span>
             </div>
           </aside>
